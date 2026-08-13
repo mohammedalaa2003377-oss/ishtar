@@ -1,0 +1,7 @@
+<!doctype html><html lang="ar" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>بوابة عشتار - بحث المعدل</title><link rel="stylesheet" href="assets/style.css"></head><body>
+<div class="page"><main class="card"><img id="siteLogo" class="logo" src="assets/ishtar.svg" alt="بوابة عشتار"><h1>بوابة عشتار</h1><p class="sub">دليل القبول حسب المعدل والفرع</p>
+<div class="form"><label>معدلك<input id="gpa" type="number" min="0" max="100" step=".01" placeholder="مثال: 68.5"></label>
+<label>الفرع<select id="branch"><option value="">اختر الفرع</option><option>علمي</option><option>أحيائي</option><option>أدبي</option><option>تطبيقي</option><option>مهني</option><option>صناعة</option><option>حاسوب وتقنية المعلومات</option><option>إعدادية تمريض</option><option>تمريض قبالة وتوليد</option><option>تجارة</option><option>معهد إعداد المعلمين</option><option>مفوضي الشرطة</option><option>مراكز التدريب المهني</option><option>معهد السكك</option></select></label>
+<label>الدراسة<select id="study"><option value="">صباحي أو مسائي</option><option value="morning">صباحي</option><option value="evening">مسائي</option></select></label>
+<button onclick="search()">بحث عن الأقسام التي أقبل بها</button></div>
+<p class="note">تظهر الأقسام التي يناسبها معدلك وفرعك ونوع الدراسة، مع القسط الأول وباقي الأقساط.</p><div id="result"></div></main></div><script src="assets/app.js"></script></body></html>
